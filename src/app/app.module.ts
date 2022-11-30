@@ -15,6 +15,7 @@ import { ViewAllFriendsComponent } from './viewfriends/viewfriends.component';
 import { ViewAllCourseComponent } from './view-all-course/view-all-course.component';
 import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 
 
@@ -47,6 +48,10 @@ const myRoutes:Routes = [
     path:"employeelogin",
     component:EmployeeLoginComponent
   },
+  {
+    path:"addcourse",
+    component:AddCourseComponent
+  },
 ]
 
 @NgModule({
@@ -59,7 +64,8 @@ const myRoutes:Routes = [
     AdminloginComponent,
     ViewfriendsComponent,
     ViewcourseComponent,
-    EmployeeloginComponent
+    EmployeeloginComponent,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,
