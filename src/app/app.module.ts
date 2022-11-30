@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewAllFriendsComponent } from './viewfriends/viewfriends.component';
 import { ViewAllCourseComponent } from './view-all-course/view-all-course.component';
+import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 
 
 
@@ -51,7 +52,8 @@ const myRoutes:Routes = [
     AboutusComponent,
     NavbarComponent,
     AdminloginComponent,
-    ViewfriendsComponent
+    ViewfriendsComponent,
+    ViewcourseComponent
   ],
   imports: [
     BrowserModule,
