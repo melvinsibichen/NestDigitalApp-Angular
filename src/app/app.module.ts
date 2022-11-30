@@ -11,15 +11,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewAllFriendsComponent } from './viewfriends/viewfriends.component';
-import { ViewAllCourseComponent } from './view-all-course/view-all-course.component';
-import { ViewcourseComponent } from './viewcourse/viewcourse.component';
-import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
-import { AddcourseComponent } from './addcourse/addcourse.component';
-import { AddfriendComponent } from './addfriend/addfriend.component';
-import { EmployeeregComponent } from './employeereg/employeereg.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { EmployeenavbarComponent } from './employeenavbar/employeenavbar.component';
-
+import { ViewAllCourseComponent } from './viewcourse/viewcourse.component';
+import { EmployeeLoginComponent } from './employeelogin/employeelogin.component';
+import { AddCourseComponent } from './addcourse/addcourse.component';
+import { AddFriendComponent } from './addfriend/addfriend.component';
+import { EmployeeRegComponent } from './employeereg/employeereg.component';
 
 
 const myRoutes:Routes = [
@@ -49,19 +47,19 @@ const myRoutes:Routes = [
   },
   {
     path:"employeelogin",
-    component:EmployeeloginComponent
+    component:EmployeeLoginComponent
   },
   {
     path:"addcourse",
-    component:AddcourseComponent
+    component:AddCourseComponent
   },
   {
     path:"addfriend",
-    component:AddfriendComponent
+    component:AddFriendComponent
   },
   {
     path:"employeereg",
-    component:EmployeeregComponent
+    component:EmployeeRegComponent
   },
 ]
 
@@ -74,11 +72,11 @@ const myRoutes:Routes = [
     NavbarComponent,
     AdminloginComponent,
     ViewAllFriendsComponent,
-    ViewcourseComponent,
-    EmployeeloginComponent,
-    AddcourseComponent,
-    AddfriendComponent,
-    EmployeeregComponent,
+    ViewAllCourseComponent,
+    EmployeeLoginComponent,
+    AddCourseComponent,
+    AddFriendComponent,
+    EmployeeRegComponent,
     AdminnavbarComponent,
     EmployeenavbarComponent
   ],
