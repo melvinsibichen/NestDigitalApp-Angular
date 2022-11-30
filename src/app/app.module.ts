@@ -18,6 +18,7 @@ import { EmployeeloginComponent } from './employeelogin/employeelogin.component'
 import { AddcourseComponent } from './addcourse/addcourse.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { EmployeeregComponent } from './employeereg/employeereg.component';
+import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 
 
 
@@ -77,7 +78,8 @@ const myRoutes:Routes = [
     EmployeeloginComponent,
     AddcourseComponent,
     AddfriendComponent,
-    EmployeeregComponent
+    EmployeeregComponent,
+    AdminnavbarComponent
   ],
   imports: [
     BrowserModule,
