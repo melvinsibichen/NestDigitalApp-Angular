@@ -11,6 +11,9 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ViewAllFriendsComponent } from './viewfriends/viewfriends.component';
+import { ViewAllCourseComponent } from './view-all-course/view-all-course.component';
+
 
 
 const myRoutes:Routes = [
@@ -30,6 +33,14 @@ const myRoutes:Routes = [
     path:"adminlogin",
     component:AdminloginComponent
   },
+  {
+    path:"viewallfriends",
+    component:ViewfriendsComponent
+  },
+  {
+    path:"viewallcourse",
+    component:ViewAllCourseComponent
+  },
 ]
 
 @NgModule({
@@ -39,7 +50,8 @@ const myRoutes:Routes = [
     ContactusComponent,
     AboutusComponent,
     NavbarComponent,
-    AdminloginComponent
+    AdminloginComponent,
+    ViewfriendsComponent
   ],
   imports: [
     BrowserModule,
