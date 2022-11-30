@@ -3,8 +3,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee-reg',
-  templateUrl: './employee-reg.component.html',
-  styleUrls: ['./employee-reg.component.css']
+  templateUrl: './employeereg.component.html',
+  styleUrls: ['./employeereg.component.css']
 })
 export class EmployeeRegComponent {
   constructor(private route:Router){}

@@ -76,9 +76,9 @@ const myRoutes:Routes = [
     EmployeeLoginComponent,
     AddCourseComponent,
     AddFriendComponent,
-    EmployeeRegComponent,
+   EmployeeRegComponent,
     AdminnavbarComponent,
-    EmployeenavbarComponent
+    EmployeenavbarComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,8 +3,8 @@ import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-add-friend',
-  templateUrl: './add-friend.component.html',
-  styleUrls: ['./add-friend.component.css']
+  templateUrl: './addfriend.component.html',
+  styleUrls: ['./addfriend.component.css']
 })
 export class AddFriendComponent {
   constructor(private api: ApiService) { }

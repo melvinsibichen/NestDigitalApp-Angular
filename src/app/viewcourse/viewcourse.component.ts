@@ -3,8 +3,8 @@ import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-view-all-course',
-  templateUrl: './view-all-course.component.html',
-  styleUrls: ['./view-all-course.component.css']
+  templateUrl: './viewcourse.component.html',
+  styleUrls: ['./viewcourse.component.css']
 })
 export class ViewAllCourseComponent {
   constructor(private api:ApiService){
