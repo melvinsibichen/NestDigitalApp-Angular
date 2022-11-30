@@ -19,6 +19,7 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { EmployeeregComponent } from './employeereg/employeereg.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
+import { EmployeenavbarComponent } from './employeenavbar/employeenavbar.component';
 
 
 
@@ -79,7 +80,8 @@ const myRoutes:Routes = [
     AddcourseComponent,
     AddfriendComponent,
     EmployeeregComponent,
-    AdminnavbarComponent
+    AdminnavbarComponent,
+    EmployeenavbarComponent
   ],
   imports: [
     BrowserModule,
